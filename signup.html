@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Signup Page</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCvzywKMRutNPDeHr43ZTP9KwzBHdcDQaRA&usqp=CAU" type="image/icon type">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      /* background-color: #f2f2f2; */
+      background-image: url("https://c4.wallpaperflare.com/wallpaper/975/1021/255/asus-rog-neon-logo-4k-wallpaper-preview.jpg");
+      background-size: cover;
+      /* margin: 0; */
+      /* padding: 0; */
+    }
+
+    .container {
+      margin-left: 60%;
+      max-width: 400px;
+      background-image: url("https://c0.wallpaperflare.com/preview/1021/163/815/technology-networking-abstract-business.jpg");
+      background-size: cover;
+      /* margin: 0 auto; */
+      padding: 25px;
+      /* margin-top: 20cm; */
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 100px;
+      color: #a8d508;
+    }
+
+    h1 {
+      text-align: center;
+      color: #f50f0f;
+      margin-top: 0;
+    }
+
+    form {
+      margin-top: 50px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #753131;
+      margin-bottom: 15px;
+      color: #f50f0f;
+    }
+
+    input[type="submit"] {
+      background-color: #2d094b;
+      color: #02f902;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .login-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .login-link a {
+      color: #0330fc;
+      text-decoration: none;
+    }
+
+    .login-link a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      color: #098fb0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Create an Account</h1>
+    <form action="http://127.0.0.1:5500/online%20shooping/login.html">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Sign Up" onsubmit="showalter()">
+
+    </form>
+    <div class="login-link">
+      <p>Already have an account?</p> <a href="http://127.0.0.1:5500/online%20shooping/login.html">Login</a>
+    </div>
+  </div>
+  <script>
+    function showalter() {
+      alert("you have successfull singup ");
+    }
+
+  </script>
+</body>
+
+</html>
